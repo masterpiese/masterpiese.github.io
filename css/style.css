@@ -30,6 +30,9 @@ body {
 /*Блоки*/
 .product-item {
     background-color: rgba(255, 55, 18, 0.5);
+    background: url(../img/samlik.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 10px 15px;
     margin: 10 0 50px;
     /*высота во весь лист*/
@@ -39,7 +42,7 @@ body {
    /*тень*/
     box-shadow: black 0 0 20px 10px;
 }
-/*Применение к первому объекту из блока*/
+/*Применение к первому объекту из блока, не работает почему-то*/
  .product-item:first-child{
      background: url(../img/samlik.jpg) no-repeat;
  }
