@@ -1,3 +1,4 @@
+html,
 body {
   /*Фон*/
   background-image: url(../img/background.jpg);
@@ -37,7 +38,7 @@ h2 {
   padding: 10px 15px;
   margin: 10 0 50px;
   /*высота во весь лист*/
-  height: 100vh;
+  /*height: 100vh;
   /*радиус скругления*/
   border-radius: 20px 0;
   /*тень*/
@@ -71,10 +72,19 @@ h2 {
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-.product-item {
+.mg_item {
   width: 280px;
   height: 200px;
   margin-top: 20px;
   margin-right: 20px;
   background-color: cadetblue;
+}
+.mg_item:first-child {
+  background-color: darkgoldenrod;
+}
+.mg_item:last-child {
+  background-color: lightgreen;
+}
+.pr:hover .mg_item {
+  background-color: lightsalmon;
 }
